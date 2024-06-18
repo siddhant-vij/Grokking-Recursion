@@ -4,6 +4,7 @@ import solutions.HelloWorld;
 import solutions.easy.BasicSum;
 import solutions.easy.Factorial;
 import solutions.easy.GCD;
+import solutions.easy.DecimalToBinary;
 
 public class SolutionFactory {
   public static Solution getSolution(int solutionNumber) {
@@ -16,6 +17,8 @@ public class SolutionFactory {
         return new Factorial();
       case 3:
         return new GCD();
+      case 4:
+        return new DecimalToBinary();
       default:
         return null;
     }
