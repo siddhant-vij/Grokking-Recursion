@@ -3,6 +3,7 @@ package core;
 import solutions.HelloWorld;
 import solutions.easy.BasicSum;
 import solutions.easy.Factorial;
+import solutions.easy.GCD;
 
 public class SolutionFactory {
   public static Solution getSolution(int solutionNumber) {
@@ -13,6 +14,8 @@ public class SolutionFactory {
         return new BasicSum();
       case 2:
         return new Factorial();
+      case 3:
+        return new GCD();
       default:
         return null;
     }
