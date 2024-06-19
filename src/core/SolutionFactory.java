@@ -5,6 +5,7 @@ import solutions.easy.BasicSum;
 import solutions.easy.Factorial;
 import solutions.easy.GCD;
 import solutions.easy.DecimalToBinary;
+import solutions.easy.CheckPrime;
 
 public class SolutionFactory {
   public static Solution getSolution(int solutionNumber) {
@@ -19,6 +20,8 @@ public class SolutionFactory {
         return new GCD();
       case 4:
         return new DecimalToBinary();
+      case 5:
+        return new CheckPrime();
       default:
         return null;
     }
