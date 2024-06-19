@@ -7,6 +7,7 @@ import solutions.easy.GCD;
 import solutions.easy.DecimalToBinary;
 import solutions.easy.CheckPrime;
 import solutions.easy.PerfectSquare;
+import solutions.easy.NumberFrequency;
 
 public class SolutionFactory {
   public static Solution getSolution(int solutionNumber) {
@@ -25,6 +26,8 @@ public class SolutionFactory {
         return new CheckPrime();
       case 6:
         return new PerfectSquare();
+      case 7:
+        return new NumberFrequency();
       default:
         return null;
     }
