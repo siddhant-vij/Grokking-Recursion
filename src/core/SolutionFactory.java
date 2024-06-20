@@ -8,6 +8,7 @@ import solutions.easy.DecimalToBinary;
 import solutions.easy.CheckPrime;
 import solutions.easy.PerfectSquare;
 import solutions.easy.NumberFrequency;
+import solutions.medium.PascalsTriangle;
 
 public class SolutionFactory {
   public static Solution getSolution(int solutionNumber) {
@@ -28,6 +29,8 @@ public class SolutionFactory {
         return new PerfectSquare();
       case 7:
         return new NumberFrequency();
+      case 8:
+        return new PascalsTriangle();
       default:
         return null;
     }
