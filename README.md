@@ -19,12 +19,11 @@ where `x` is an integer as the problem number below:
 8. Pascal's Triangle
 9. Binary Search
 10. Inserting a new node in a BST
-11. BST Inorder Traversal
-12. Merge Sort
-13. Quick Sort
-14. Depth First Search
-15. Removing nodes from Linked List
-16. Fibonacci Series using Memoization
-17. Good Number
-18. Split BST
-19. Pow(x,n)
+11. Merge Sort
+12. Quick Sort
+13. Depth First Search
+14. Removing nodes from Linked List
+15. Fibonacci Series using Memoization
+16. Good Number
+17. Split BST
+18. Pow(x,n)
