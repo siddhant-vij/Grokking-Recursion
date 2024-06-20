@@ -31,6 +31,8 @@ public class SolutionFactory {
         return new BSTInsertion();
       case 11:
         return new MergeSort();
+      case 12:
+        return new QuickSort();
       default:
         return null;
     }
