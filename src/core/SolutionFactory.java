@@ -9,6 +9,7 @@ import solutions.easy.CheckPrime;
 import solutions.easy.PerfectSquare;
 import solutions.easy.NumberFrequency;
 import solutions.medium.PascalsTriangle;
+import solutions.medium.BinarySearch;
 
 public class SolutionFactory {
   public static Solution getSolution(int solutionNumber) {
@@ -31,6 +32,8 @@ public class SolutionFactory {
         return new NumberFrequency();
       case 8:
         return new PascalsTriangle();
+      case 9:
+        return new BinarySearch();
       default:
         return null;
     }
