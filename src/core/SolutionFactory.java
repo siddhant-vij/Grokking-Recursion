@@ -1,16 +1,8 @@
 package core;
 
-import solutions.HelloWorld;
-import solutions.easy.BasicSum;
-import solutions.easy.Factorial;
-import solutions.easy.GCD;
-import solutions.easy.DecimalToBinary;
-import solutions.easy.CheckPrime;
-import solutions.easy.PerfectSquare;
-import solutions.easy.NumberFrequency;
-import solutions.medium.PascalsTriangle;
-import solutions.medium.BinarySearch;
-import solutions.medium.BSTInsertion;
+import solutions.*;
+import solutions.easy.*;
+import solutions.medium.*;
 
 public class SolutionFactory {
   public static Solution getSolution(int solutionNumber) {
@@ -37,6 +29,8 @@ public class SolutionFactory {
         return new BinarySearch();
       case 10:
         return new BSTInsertion();
+      case 11:
+        return new MergeSort();
       default:
         return null;
     }
