@@ -38,6 +38,8 @@ public class SolutionFactory {
         return new RemoveLLNodes();
       case 14:
         return new FibonacciMemo();
+      case 15:
+        return new GoodNumber();
       default:
         return null;
     }
