@@ -3,6 +3,7 @@ package core;
 import solutions.*;
 import solutions.easy.*;
 import solutions.medium.*;
+import solutions.hard.*;
 
 public class SolutionFactory {
   public static Solution getSolution(int solutionNumber) {
@@ -35,6 +36,8 @@ public class SolutionFactory {
         return new QuickSort();
       case 13:
         return new RemoveLLNodes();
+      case 14:
+        return new FibonacciMemo();
       default:
         return null;
     }
