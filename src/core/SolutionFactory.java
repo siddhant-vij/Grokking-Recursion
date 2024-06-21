@@ -33,6 +33,8 @@ public class SolutionFactory {
         return new MergeSort();
       case 12:
         return new QuickSort();
+      case 13:
+        return new RemoveLLNodes();
       default:
         return null;
     }
