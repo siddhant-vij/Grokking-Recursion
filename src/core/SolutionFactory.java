@@ -42,6 +42,8 @@ public class SolutionFactory {
         return new GoodNumber();
       case 16:
         return new SplitBST();
+      case 17:
+        return new PowXN();
       default:
         return null;
     }
