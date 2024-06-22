@@ -40,6 +40,8 @@ public class SolutionFactory {
         return new FibonacciMemo();
       case 15:
         return new GoodNumber();
+      case 16:
+        return new SplitBST();
       default:
         return null;
     }
